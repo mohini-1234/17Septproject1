@@ -49,6 +49,7 @@ public class TestBase {
 		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
+		//hello github
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	      String url	= ReadData.readPropertyFile("URL");
 		driver.get(url);
